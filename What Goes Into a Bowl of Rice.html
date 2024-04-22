@@ -10,18 +10,23 @@
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play What Goes Into a Bowl of Rice.</tw-noscript></noscript></tw-story>
 <tw-storydata name="What Goes Into a Bowl of Rice" startnode="1" creator="Twine" creator-version="2.8.1" format="Harlowe" format-version="3.3.8" ifid="529C0EE6-E970-469D-AF44-9A2CBAA2DDE6" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-story {
-	background-color: #f4eee4;
-	color: black;
-	font-family: Georgia, serif;
+  background-color: #f4eee4;
+  color: #0B1215;
+  font-family: Georgia, serif;
+  text-align: center;
 }
 
-</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="Story" color="red"></tw-tag><tw-tag name="Process" color="green"></tw-tag><tw-tag name="Interactive" color="blue"></tw-tag><tw-passagedata pid="1" name="Menu" tags="" position="625,75" size="100,100">&#39;&#39;What Goes Into a Bowl of Rice&#39;&#39;
+
+tw-story[tags~="Story"] {
+  background-color: #0B1215;
+  color: #f4eee4;
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="Story" color="red"></tw-tag><tw-tag name="Process" color="green"></tw-tag><tw-tag name="Interactive" color="blue"></tw-tag><tw-passagedata pid="1" name="Menu" tags="" position="625,75" size="100,100">&#39;&#39;What Goes Into a Bowl of Rice&#39;&#39;
 
 A Docustory by Alex L. &amp; Alina V.
 
 &lt;img src=&quot;visuals/rice.png&quot;&gt;
 
-[[Play|Prelogue]]</tw-passagedata><tw-passagedata pid="2" name="Keep planting the seedlings into the water" tags="Story" position="625,450" size="100,100">================================================
+[[Play|Prelogue]]</tw-passagedata><tw-passagedata pid="2" name="Keep planting the seedlings into the water" tags="Story" position="625,450" size="100,100">---
 
 Em ơi,
 
@@ -36,11 +41,11 @@ Do you trust me?//
 Anh yêu và nhớ em rất nhiều,
 H.L.
 
-================================================
+---
 
 [[Trust|Scene 2]]
 
-</tw-passagedata><tw-passagedata pid="3" name="Take a rest" tags="Process" position="750,325" size="100,100">Most never save enough to leave their country. 
+&lt;audio src=&quot;audio/letter.mp3&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="3" name="Take a rest" tags="Process" position="750,325" size="100,100">Most never save enough to leave their country. 
 
 
 Education isn&#39;t free, taxes take a chunk, and you&#39;ve got mouths to feed. You can&#39;t just leave everything behind.
@@ -57,37 +62,43 @@ Planting rice is a selfless act. You waste away at your posture, shrivel your to
 
 Education? A necessity. Someone&#39;s gotta break the cycle of poverty and what better way than to pay for your sons&#39; and daughters&#39; education? Better to play it safe than to move across the world, even if the mountains are made of gold there.
 
-&lt;audio src=&quot;audio/cicadas.mp3&quot; autoplay loop&gt;
 
 
 [[Pay your children&#39;s tuition |Menu]]
-</tw-passagedata><tw-passagedata pid="4" name="Grow" tags="Process" position="625,700" size="100,100">Because of how suseptible rice is to disease and pests, constant and close monitoring is kept on the rice as it grows. This can be especially difficult with large fields and manual labor. 
 
-&lt;img src=&quot;visuals/growing2.png&quot;&gt;
+&lt;audio src=&quot;audio/cicadas.mp3&quot; autoplay loop&gt;</tw-passagedata><tw-passagedata pid="4" name="Grow" tags="Process" position="625,700" size="100,100">&lt;img src=&quot;visuals/growing2.png&quot;&gt;
+
+Because of how suseptible rice is to disease and pests, constant and close monitoring is kept on the rice as it grows. This can be especially difficult with large fields and manual labor. 
 
 
 [[Save]]</tw-passagedata><tw-passagedata pid="5" name="Save" tags="Process" position="625,825" size="100,100">
-&lt;img src=&quot;visuals/growing3.png&quot;&gt;
+&lt;img src=&quot;visuals/golden.png&quot;&gt;
 
 The grains grow larger and larger, bending the stalk down. The fruits of labor of the farmers and the rice shoots are demonstrated in their weight.
 
-[[Admire |Scene 3]]</tw-passagedata><tw-passagedata pid="6" name="Scene 3" tags="Process Interactive" position="625,950" size="100,100">By mid-Fall, the rice is ready to be harvested. There&#39;s an entire festival dedicated to the harvest: the Mid-Autumn Festival. 
+[[Admire |Scene 3]]</tw-passagedata><tw-passagedata pid="6" name="Scene 3" tags="Process" position="550,950" size="100,100">&lt;img src=&quot;visuals/festival.png&quot;&gt;
 
-The workers cut the golden stalks and pack them into bundles to be later processed. The stalks are stored for later to process them into grains of rice.
+By mid-Fall, the rice is ready to be harvested. There&#39;s an entire festival dedicated to the harvest: the Mid-Autumn Festival. 
 
-[[Slice the grass]]</tw-passagedata><tw-passagedata pid="7" name="Slice the grass" tags="Story" position="625,1075" size="100,100">After a long two years of nonstop work, the couple finally saves enough for plane tickets. 
+[[Continue|Slice Interactive]]
 
-Two years of waking up at 6 AM to start brewing the coffee. 
-Two years of sitting in an oven of a kitchen, preparing dishes for the masses.
+&lt;audio src=&quot;audio/harvesting.mp3&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="7" name="Slice the grass" tags="Story" position="700,1075" size="100,100">&lt;div style=&quot;display:flex&quot;&gt;
+&lt;img src=&quot;visuals/motorcycle.png&quot;&gt;
+&lt;img src=&quot;visuals/save.png&quot;&gt;
+&lt;/div&gt;
+After a long two years of nonstop work, the couple finally saves enough for plane tickets. 
+
+Two years of weaving traffic for deliveries. 
+Two years of manning the oven of a scalding kitchen.
+Two years of preparing dishes for the masses.
 Two years of sitting on a growing mound of cash.
 Two years of waiting for the best plane ticket prices.
 Two years of seldom seeing each other. 
 
-//We did it! We finally can afford our tickets to freedom!//
+[[Continue|Slice the grass 2]]
 
-And so they did. So they went.
 
-[[Embark.|Scene 4]]</tw-passagedata><tw-passagedata pid="8" name="Scene 1" tags="Process" position="625,325" size="100,100">Even with a handcrafted straw hat to protect them, the sun sears any exposed skin. The paddy water simmers away at their legs and the glint on the water blinds their eyes. At times, these farmers even work on a restless schedule. What makes them drive so hard?
+&lt;audio src=&quot;audio/airport.mp3&quot; autoplay loop&gt;</tw-passagedata><tw-passagedata pid="8" name="Scene 1" tags="Process" position="625,325" size="100,100">Even with a handcrafted straw hat to protect them, the sun sears any exposed skin. The paddy water simmers away at their legs and the glint on the water blinds their eyes. At times, these farmers even work on a restless schedule. What makes them drive so hard?
 
 
 They stop for a second, straightening their back, then staring at the next rice seedling in their pouch.
@@ -96,13 +107,13 @@ They stop for a second, straightening their back, then staring at the next rice 
 
 //I&#39;m tired, my back hurts, I&#39;ve been hungry since yesterday. But at this rate, I won&#39;t meet the quota before sundown. I &#39;&#39;need&#39;&#39; to get my daughters into school.//
 
-&lt;audio src=&quot;audio/cicadas.mp3&quot; autoplay loop&gt;
 
 
 [[Keep planting the seedlings into the water]]
 
 [[Take a rest]]
 
+&lt;audio src=&quot;audio/cicadas.mp3&quot; autoplay loop&gt;
 </tw-passagedata><tw-passagedata pid="9" name="Scene 2" tags="Process" position="625,575" size="100,100">
 &lt;img src=&quot;visuals/growing1.png&quot;&gt;
 
@@ -112,9 +123,14 @@ As the rice shoot grows, the plant directs all of its energy into growing the pa
 Rice needs water, so growing in a wet and rainy climate makes it easier. Farmers weed the fields to make sure the rice can grow their best and even separate stalks if they get too close to each other.
 
 
-[[Grow]]</tw-passagedata><tw-passagedata pid="10" name="Scene 4" tags="Process Interactive" position="625,1200" size="100,100">After collecting the bundles of rice stalks, the stalks are thrashed. The stalks are beat against a surface or combed, separating the grains from the stalks. The stalks are then discarded and the grains are kept for further processing.
+[[Grow]]</tw-passagedata><tw-passagedata pid="10" name="Scene 4" tags="Process Interactive" position="625,1200" size="100,100">&lt;img src=&quot;visuals/thrashing.png&quot;&gt;
 
-[[Thrash the grains]] [[Comb the grains]]</tw-passagedata><tw-passagedata pid="11" name="Thrash the grains" tags="Story" position="700,1325" size="100,100">&quot;//I&#39;m on my way now, hang in there. Please God, let me make it there in time..//&quot; The father swerves and weaves through traffic, rushing his way back home. It&#39;s a good thing it wasn&#39;t rush hour.
+After collecting the bundles of rice stalks, the stalks are thrashed. The stalks are beat against a surface or combed, separating the grains from the stalks. The stalks are then discarded and the grains are kept for further processing.
+
+[[Thrash the grains]] 
+[[Comb the grains]]
+
+&lt;audio src=&quot;audio/thrash.mp3&quot; autoplay loop&gt;</tw-passagedata><tw-passagedata pid="11" name="Thrash the grains" tags="Story" position="775,1250" size="100,100">&quot;//I&#39;m on my way now, hang in there. Please God, let me make it there in time..//&quot; The father swerves and weaves through traffic, rushing his way back home. It&#39;s a good thing it wasn&#39;t rush hour.
 
 The mother had broken her water already and was sitting in the tub. It all happened so suddenly. 
 
@@ -122,9 +138,9 @@ The mother had broken her water already and was sitting in the tub. It all happe
 
 The father narrowly misses a bumper. &quot;//I&#39;ll be home as soon as I can, just make sure to breathe.// OK?&quot;
 
-It was an uncomfortable and unsightly process but it happened. At 3:17 PM on a Thursday, their first son was born, aided by the nanny and the father. Having followed the instructions from his mother, the father held his bloodied, wet son in his arms. He whispered in broken English, &quot;Welcome to the world, my son.&quot; 
+[[Breathe|Thrash the grains 2]]
 
-[[Nurse|Scene 5]]</tw-passagedata><tw-passagedata pid="12" name="Comb the grains" tags="Story" position="550,1325" size="100,100">A nurse clutches the mother&#39;s hands and supports her: &quot;Push! Push!&quot; 
+&lt;audio src=&quot;audio/traffic.mp3&quot; autoplay loop&gt;</tw-passagedata><tw-passagedata pid="12" name="Comb the grains" tags="Story" position="475,1250" size="100,100">A nurse clutches the mother&#39;s hands and supports her: &quot;Push! Push!&quot; 
 
 Doctors and nurses swarm and buzz around the room as the mother heaves and cries. 
 
@@ -132,28 +148,19 @@ Doctors and nurses swarm and buzz around the room as the mother heaves and cries
 
 The father isn&#39;t particularly taking it very well either. Who would&#39;ve thought moving to a new country and giving birth four months in would be so stressful?
 
-At 12:49 AM on a Sunday, their first son was born. 
+[[Push|Comb the grains 2]]
 
-&quot;It&#39;s a boy!&quot; the doctor announces.
+&lt;audio src=&quot;audio/conversation.mp3&quot; autoplay loop&gt;</tw-passagedata><tw-passagedata pid="13" name="Scene 5" tags="Process" position="625,1450" size="100,100">&lt;img src=&quot;visuals/drying.png&quot;&gt;
 
-&quot;//Congratulations, it&#39;s a boy!//&quot; the translator inteprets to the couple. 
+To help retain shelf life, rice is dried. Farmers spread out the grains in a thin, even layer across a concrete floor or mats to speed up the process. The grains are left under the sun for 10 days. Supposedly, it also enhances the flavor of the rice.
 
-His first breaths are quickly replaced by his cries as the nurses swiftly separate the son and mother. The father has the honor of cutting the cord before retreating to his station in the corner of the room. 
-
-The son is whisked away, swaddled in cloth, and gently placed back in the mother&#39;s arms.
-
-&quot;//What should we name him?//
-
-[[Nurse|Scene 5]]
+This drying stage is one of the most fundamental steps in rice, one could say even the very defining step of rice.
 
 
-</tw-passagedata><tw-passagedata pid="13" name="Scene 5" tags="" position="625,1450" size="100,100">To help retain shelf life, rice is dried. Farmers spread out the unprocessed grains in a thin even layer across a concrete floor or mats to speed up the process. The grains are left under the sun for 10 days until the moisture levels are low enough to discourage microbial growth. If it (often) rains, farmers bring all the grains inside and wait for clear skies again. 
+[[Toast]]
 
 
-Supposedly, this drying processes enhances the flavor of the rice as it&#39;s believed that the loss of moisture condenses and intensifies the rice&#39;s natural flavors. This process alone is one of the most fundamental steps in processing rice for stable shelf life, the very defining step of rice.
-
-
-[[Toast]]</tw-passagedata><tw-passagedata pid="14" name="Toast" tags="Story" position="625,1575" size="100,100">The son cries as his mom drives him to kindergarten, &quot;//I don&#39;t want to go! I want to stay home with mom//! No!&quot; 
+&lt;audio src=&quot;audio/cicadas.mp3&quot; autoplay loop&gt;</tw-passagedata><tw-passagedata pid="14" name="Toast" tags="Story" position="375,1525" size="100,100">The son cries as his mom drives him to kindergarten, &quot;//I don&#39;t want to go! I want to stay home with mom//! No!&quot; 
 
 
 Gripping his mother&#39;s top, he is pushed into the door of his classroom. &quot;//Go on in, everyone&#39;s waiting for you to sit down,//&quot; his mom urges. 
@@ -161,21 +168,12 @@ Gripping his mother&#39;s top, he is pushed into the door of his classroom. &quo
 
 He adjusts himself quickly however, realizing that school isn&#39;t as bad as he thought with new friends and a caring teacher. 
 
+[[Continue |Toast 2]]
 
-During recess, he find himself with his first defining moment as an Asian American.
-
-
-&quot;Are you Chinese?&quot; the kids asked. He stared back blankly and put on an awkward smile. &quot;Then are you Japanese?&quot;
+&lt;audio src=&quot;audio/recess.mp3&quot; autoplay loop&gt;</tw-passagedata><tw-passagedata pid="15" name="Scene 6" tags="Process Interactive" position="625,1700" size="100,100">Having dried, the grains are finally ready to be processed into edible grains of rice. 
 
 
-He was Vietnamese.
-
-
-[[Eternalize|Scene 6]]
-</tw-passagedata><tw-passagedata pid="15" name="Scene 6" tags="Process Interactive" position="625,1700" size="100,100">Having dried, the grains are finally ready to be processed into edible grains of rice. 
-
-
-First, the hard outer layer of the rice, called the hull, is removed. Unless you want the adde texture and chewiness, the grains are pounded until the hull falls off.
+First, the hard outer layer of the rice, called the hull, is removed. Unless you want the added texture and chewiness, the grains are pounded until the hull falls off.
 
 
 The grain inside the hull, the germ, is extracted. This results in brown rice being left over. To turn it into white rice, the brown rice is rubbed against rough surfaces like stones or in between ones hands. This polishes the brown rice into white rice.
@@ -186,12 +184,15 @@ Some producers even polish their rice past the point of whiteness and is categor
 
 [[Do not polish the rice]]
 [[Polish the rice ]]
-[[Extra-polish the rice]]</tw-passagedata><tw-passagedata pid="16" name="Polish the rice " tags="Story" position="625,1825" size="100,100">The van door slams shut as the son buckles his seatbelt; his expression: sour. 
+[[Extra-polish the rice]]
+
+&lt;audio src=&quot;audio/milling.mp3&quot; autoplay loop&gt;</tw-passagedata><tw-passagedata pid="16" name="Polish the rice " tags="Story" position="625,1825" size="100,100">The van door slams shut as the son buckles his seatbelt; his expression: sour. 
 
 
 The usual spiel comes around and the mother begins asking her questions:
 &quot;//What did you do in school today? Did you eat your lunch?//
 
+&lt;img src=&quot;visuals/polish/springrolls.png&quot;&gt;
 
 The son replies in English instead: &quot;Mom can you just pack me a normal lunch? The gỏi cuốn is weird and everyone keeps making fun of me.&quot;
 
@@ -202,12 +203,16 @@ The mother was worried. What consisted of a typical American lunch? Gỏi cuốn
 &quot;OK con, I try to make it.&quot; she responded in broken English.
 
 
-[[Learn|Scene 7]]</tw-passagedata><tw-passagedata pid="17" name="Do not polish the rice" tags="Story" position="500,1825" size="100,100">The van door slams shut as the son buckles his seatbelt. The mother glances at the son in the dusty rearview mirror.
+[[Learn|Scene 7]]
+
+
+&lt;audio src=&quot;audio/driving.mp3&quot; autoplay loop&gt;</tw-passagedata><tw-passagedata pid="17" name="Do not polish the rice" tags="Story" position="500,1825" size="100,100">The van door slams shut as the son buckles his seatbelt. The mother glances at the son in the dusty rearview mirror.
 
 
 The usual spiel comes around and she begins asking:
 &quot;//What did you do in school today? Did you eat your lunch?//
 
+&lt;img src=&quot;visuals/polish/daikon.png&quot;&gt;
 
 &quot;//School was fun! English and writing is a bit hard but I think that I&#39;m getting better. I also liked the pickled daikon you made today, it was sweeter than usual and I loved that!//&quot;
 
@@ -218,7 +223,9 @@ The mother grinned. &quot;//Do good in school,// OK con? //Don&#39;t end up like
 &quot;Dạ.&quot; the son responded, as he was instructed to do so for so long.
 
 
-[[Acknowledge|Scene 7]]</tw-passagedata><tw-passagedata pid="18" name="Extra-polish the rice" tags="Story" position="750,1825" size="100,100">The van door slams shut as the son buckles his seatbelt; his expression: indifferent. He stares out the van door at a group of kids, packing into another car. 
+[[Acknowledge|Scene 7]]
+
+&lt;audio src=&quot;audio/driving.mp3&quot; autoplay loop&gt;</tw-passagedata><tw-passagedata pid="18" name="Extra-polish the rice" tags="Story" position="750,1825" size="100,100">The van door slams shut as the son buckles his seatbelt; his expression: indifferent. He stares out the van door at a group of kids, packing into another car. 
 
 
 The usual spiel comes around and the mother begins asking her questions:
@@ -230,6 +237,7 @@ The son replies in English: &quot;I don&#39;t know.&quot;
 
 The mother repeated herself in broken English this time. &quot;You do OK in school today? You eat lunch?&quot; 
 
+&lt;img src=&quot;visuals/polish/burgir.png&quot;&gt;
 
 &quot;Yeah I guess so. I just went and got some McDonalds with my friends at lunch time. I forgot my lunch at home.&quot;
 
@@ -237,11 +245,16 @@ The mother repeated herself in broken English this time. &quot;You do OK in scho
 It wasn&#39;t the first time he tossed away his lunch and it won&#39;t be his last either; the mother knew this quite well.
 
 
-[[Wallow|Scene 7]]</tw-passagedata><tw-passagedata pid="19" name="Scene 7" tags="Process" position="625,1950" size="100,100">As the rice is polished, the grains are then finally ready to be packaged. 
+[[Wallow|Scene 7]]
+
+
+&lt;audio src=&quot;audio/driving.mp3&quot; autoplay loop&gt;</tw-passagedata><tw-passagedata pid="19" name="Scene 7" tags="Process" position="625,1950" size="100,100">As the rice is polished, the grains are then finally ready to be packaged. 
 
 From small, one-pound bags to bulk, 50-pound sacks, suppliers fill each bag up with the grains, label them, and pack them into pallets ready for shipment. 
 
-[[Fill the bags]]</tw-passagedata><tw-passagedata pid="20" name="Fill the bags" tags="Interactive" position="625,2075" size="100,100">Implement Rice bag filling minigame here
+[[Fill the bags]]
+
+&lt;audio src=&quot;audio/rice-pour.mp3&quot; autoplay loop&gt;</tw-passagedata><tw-passagedata pid="20" name="Fill the bags" tags="Interactive" position="625,2075" size="100,100">Implement Rice bag filling minigame here
 
 [[Underfill the bag]]
 [[Fill the bag just right]]
@@ -300,7 +313,7 @@ His mother scooping the side dishes into plates to share at the table. His mom i
 [[Mount your chopsticks|Scene 8]]
 
 
-</tw-passagedata><tw-passagedata pid="24" name="Scene 8" tags="Process" position="625,2325" size="100,100">Because it can only be grown well in wet climates, rice is shipped out to drier areas that can’t produce their own rice. They are packed onto boats, shipped across oceans, trucked across states, and end up your supermarkets.
+</tw-passagedata><tw-passagedata pid="24" name="Scene 8" tags="Process" position="625,2325" size="100,100">Because it can only be grown well in certain places, rice is shipped out to areas that can’t produce their own rice. They are packed onto boats, shipped across oceans, trucked across roads, and end up your local supermarkets.
 
 
 [[Load the rice]]</tw-passagedata><tw-passagedata pid="25" name="Load the rice" tags="Story" position="625,2450" size="100,100">In just a blink of an eye, the son graduates high school and prepares to move across the country for college. 
@@ -319,7 +332,8 @@ The father reminds him, &quot;//Just 4 more years, son. Four more years and you 
 
 
 [[Board the plane|Scene 9]]
-</tw-passagedata><tw-passagedata pid="26" name="Scene 9" tags="Process Interactive" position="625,2575" size="100,100">Markets receive the rice and put the rice on display. Rice from around the world: different varieties of rice, different colors of rice, rice for all different kinds of purposes—all readily available for purchase. Vietnamese rice, Chinese rice, American rice, Italian rice, Japanese rice. Every rice variety is grown with a different story on how they&#39;ll end up in your home.
+
+&lt;audio src=&quot;audio/airport.mp3&quot; autoplay loop&gt;</tw-passagedata><tw-passagedata pid="26" name="Scene 9" tags="Process Interactive" position="625,2575" size="100,100">Markets receive the rice and put the rice on display. Rice from around the world: different varieties of rice, different colors of rice, rice for all different kinds of purposes—all readily available for purchase. Vietnamese rice, Chinese rice, American rice, Italian rice, Japanese rice. Every rice variety is grown with a different story on how they&#39;ll end up in your home.
 
 If you frequently eat rice, it’s typically more economical to buy rice in the 50-pound bulk bags. Check your local Asian market for bulk rice bags; they&#39;re typically at the main entrance.
 
@@ -420,9 +434,11 @@ He didn&#39;t have time to think about anything else but the college experience.
 After washing and preparing the rice as usual, place the pot on the stove at high heat until it begins to boil. Once it boils. Immediately drop the heat to the lowest heat setting and let simmer for the next 15 minutes until you&#39;ve fully cooked your rice.
 
 
-[[Boil|Start]]</tw-passagedata><tw-passagedata pid="35" name="Load the rice cooker." tags="Process Interactive" position="700,3325" size="100,100">Interactive: Press the start button on the Zojirushi rice cooker and play the musical chime.
+[[Boil|Start]]  </tw-passagedata><tw-passagedata pid="35" name="Load the rice cooker." tags="Process Interactive" position="700,3325" size="100,100">Interactive: Press the start button on the Zojirushi rice cooker and play the musical chime.
 
-[[Start|Start]]</tw-passagedata><tw-passagedata pid="36" name="Scene 12" tags="Process" position="625,3575" size="100,100">A simple bowl of rice. 
+[[Start|Start]]
+
+&lt;audio src=&quot;audio/zojirushi-start.mp3&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="36" name="Scene 12" tags="Process" position="625,3575" size="100,100">A simple bowl of rice. 
 
 
 Each granule is all the same but goes through an immense journey for it to arrive at your table. The cost of that bowl? About a nickel. 
@@ -487,10 +503,13 @@ In late Spring, farmers plant rice shoots into rice paddies. Rice needs a lot of
 
 Each worker painstakingly bends down and inserts each individual seedling into the mud layer below the water. Despite a yearly salary of $3,000, rice farmers perform some of the most grueling, back-breaking manual labor.
 
+
+[[Continue|Scene 1]]
+
 &lt;audio src=&quot;audio/cicadas.mp3&quot; autoplay loop&gt;
 
 
-[[Continue|Scene 1]]</tw-passagedata><tw-passagedata pid="40" name="Start" tags="Story" position="625,3450" size="100,100">im·pos·tor syn·drome
+</tw-passagedata><tw-passagedata pid="40" name="Start" tags="Story" position="625,3450" size="100,100">im·pos·tor syn·drome
 
 //noun//: &#39;&#39;imposter syndrome&#39;&#39;
 
@@ -514,7 +533,64 @@ Scramble out.
 In the flash of a second, it was all over. They say that life accelerates as you get older and the four years of college was a mere fraction of high school&#39;s four years. How //did// we get here?
 
 
-[[Something|Scene 12]]</tw-passagedata></tw-storydata>
+[[Something|Scene 12]]</tw-passagedata><tw-passagedata pid="41" name="Slice Interactive" tags="Interactive" position="700,950" size="100,100">&lt;img src=&quot;visuals/slice.png&quot;&gt;
+
+The workers cut the golden stalks and pack them into bundles to be later processed. The stalks are stored for later to process them into grains of rice.
+
+[[Slice the grass]]</tw-passagedata><tw-passagedata pid="42" name="Comb the grains 2" tags="Story" position="475,1375" size="100,100">&lt;img src=&quot;visuals/birth/birth.png&quot;&gt;
+
+At 12:49 AM on a Sunday, their first son was born. 
+
+&quot;It&#39;s a boy!&quot; the doctor announces.
+
+&quot;//Congratulations, it&#39;s a boy!//&quot; the translator inteprets to the couple. 
+
+His first breaths are quickly replaced by his cries as the nurses swiftly separate the son and mother. The father has the honor of cutting the cord before retreating to his station in the corner of the room. 
+
+The son is whisked away, swaddled in cloth, and gently placed back in the mother&#39;s arms.
+
+&quot;//What should we name him?//
+
+[[Nurse|Scene 5]]
+
+
+&lt;audio src=&quot;audio/conversation.mp3&quot; autoplay loop&gt;</tw-passagedata><tw-passagedata pid="43" name="Thrash the grains 2" tags="Story" position="775,1375" size="100,100">&lt;img src=&quot;visuals/birth/birth2.png&quot;&gt;
+
+It was an uncomfortable and unsightly process but it happened. 
+
+At 3:17 PM on a Thursday, their first son was born, aided by the nanny and the father. With instructions from his mother over the phone, the father finally held his son in his arms. 
+
+He whispered in broken English, &quot;Welcome to the world, my son.&quot; 
+
+[[Nurse|Scene 5]]
+
+&lt;audio src=&quot;audio/traffic.mp3&quot; autoplay loop&gt;</tw-passagedata><tw-passagedata pid="44" name="Toast 2" tags="Story" position="500,1550" size="100,100">&lt;img src=&quot;visuals/toast/kg2.png&quot;&gt;
+
+During recess, everything changes.
+
+
+&quot;Are you Chinese?&quot; the kids asked. 
+
+
+[[Continue |Toast 3]]
+</tw-passagedata><tw-passagedata pid="45" name="Toast 3" tags="Story" position="625,1575" size="100,100">&lt;img src=&quot;visuals/toast/kg1.png&quot;&gt;
+
+He stared back blankly and put on an awkward smile. 
+
+
+He was Vietnamese. He was American.
+
+
+
+[[Eternalize|Scene 6]]</tw-passagedata><tw-passagedata pid="46" name="Slice the grass 2" tags="Story" position="550,1075" size="100,100">&lt;img src=&quot;visuals/plane.png&quot;&gt;
+
+//We did it! We finally can afford our tickets to freedom!//
+
+And so they did. So they went.
+
+[[Embark.|Scene 4]]
+
+&lt;audio src=&quot;audio/airport.mp3&quot; autoplay loop&gt;</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
